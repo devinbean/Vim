@@ -7,10 +7,10 @@ set tabstop=4 shiftwidth=2 expandtab
 let mapleader="/"
 let VtrPercentage="40"
 
-noremap r :VtrSendFile<cr>
-noremap o :VtrOpenRunner<cr>
-noremap k :VtrKillRunner<cr>
-noremap fr :VtrFocusRunner<cr>
+noremap <leader>r :VtrSendFile<cr>
+noremap <leader>o :VtrOpenRunner<cr>
+noremap <leader>k :VtrKillRunner<cr>
+noremap <leader>fr :VtrFocusRunner<cr>
 
-map C <Plug>NERDCommenterInvert
+map <c-C> <Plug>NERDCommenterInvert
 map 4 $
